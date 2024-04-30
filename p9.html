@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>belajar javascript</title>
+    <style>
+        body{
+            text-align: center;
+        }  
+    </style>
+    <script>
+        function pesan1()
+        {
+            alert('menampilkan popup box')
+        }
+        function pesan2()
+        {
+            alert('dipanggil oleh tombol')
+        }
+</script>
+</head>
+<body onload="pesan1()" >
+    <form>
+        <button type="button" id="gantiwarna">gantiwarna</button>
+        <input type="button" onclick="pesan2" value="panggil pesan">
+    </form>
+    <script src="warna.js"></script>
+</body>
+</html>

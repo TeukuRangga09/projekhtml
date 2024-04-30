@@ -1,0 +1,18 @@
+/* 15220723 Teuku Rangga Febrio */
+h2,h3{
+    color: black;
+}
+#p1{
+    background-color: brown;
+    color: blueviolet;
+    font: lem sans-serif;
+
+}
+.p2{
+    background-color: lightcoral;
+    color: darkblue;
+    border: 1px solid navy;
+    padding: 5px;
+
+}
+td{ background-color: chartreuse;}

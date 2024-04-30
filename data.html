@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>belajar javascript</title>
+</head>
+<body>
+    <script>
+        var d=new Date()//class,inisiasi objek d
+        var hari=new Array( "minggu", "senin", "selasa", "rabu", "kamis", "jumat", "sabtu")
+        var month=new Array("jan", "feb", "mar", "apr", "mei", "jun", "jul", "agus", "sep", "oct", "nov", "dec")
+        document.write(d.getDate() + " "+ d.getDay())
+        document.write(" " + hari[d.getDay()])
+        console.log(d.getFullYear(),hari[d.getDay()])
+        console.log('bulannya '+ month[d.getMonth()])
+    </script>
+</body>
+</html>
